@@ -47,5 +47,5 @@ app.get("/dashboard", (c) => {
   return c.html(dashboardPage(user));
 });
 
-// Start server (local dev)
-app.fire();
+export default app;
+
